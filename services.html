@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Highlander Home Health Care</title>
+    <meta name="description" content="WEBDEV 114Responsive Web Design project 8.">
+    <meta name="keywords" content="Highlander Home Healthcare, Home Healthcare, personal care assist">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <!--- <link rel="stylesheet" media="screen and (max-width: 600px)" href="styleMobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="styleTablet.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopNav");
+            if (x.className === "topNav") {
+                x.className += " responsive";
+            }
+            else{
+                x.className = "topNav";
+            }
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><b><img id="headerHHHC" src="images/main_logo3.png" alt="HHHC"></b></h1>
+        </header>
+        <nav class="topNav" id="myTopNav">
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="faqs.html">FAQ's</a>
+            <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!-- &nbsp; is code to not let text wrap -->
+        </nav>
+        
+        <section>
+            
+            <h2 id="services">Services</h2>
+            
+            <div class="flex-container">
+              <div><img id="headerHHHC1" src="images/shutterstock_717307528.jpg" alt="HHHC"></div>
+              <div><img id="headerHHHC1" src="images/shutterstock_262437695.jpg" alt="HHHC"></div>
+              <div><img id="headerHHHC1" src="images/shutterstock_636589085.jpg" alt="HHHC"></div>  
+            </div>
+            
+            <div><h2></h2>
+            <p>Aliquam id cursus ante. Nullam ornare leo vitae sem iaculis, a luctus tellus pharetra. Nam lectus erat, elementum eget mauris ac, pellentesque semper tortor. Vestibulum nec nisi tincidunt purus pretium ultrices at sed eros. Quisque tristique nisi vel euismod elementum. Pellentesque ipsum lorem, tincidunt in ornare at, tristique ut metus. Ut id dignissim felis.</p>
+           
+            
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="section1">
+        <br>
+            <h2>We take pride in helping you, your family and friends who are:</h2>
+            <ul style="list-style-type:none;">
+                <li>Elderly</li>
+                <li>Disabled</li>
+                <li>Physical Ill</li>
+                <li>Or need personal care help in the home</li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+        
+        <footer>
+            
+            <p>Copyright &copy; 2019</p>
+        
+        </footer>
+    </main>
+</body>
+</html>

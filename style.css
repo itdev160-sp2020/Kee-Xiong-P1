@@ -1,0 +1,477 @@
+/*CSS Responsive Deb Design II Template*/
+
+/*Base Styles*/
+    .topNav {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        background-color: rgb(40, 68, 116);
+        overflow: hidden;
+        /* overflow removes scroll bar and forces box to reveal all text. */
+    }
+
+    .topNav a:hover {
+            background-color: rgba(255, 255, 255, 0.46);
+            color: #284474;
+        }
+    .topNav .icon {
+        display: none;
+    }
+
+    .topNav a.active {
+        background-color: rgba(79, 114, 173, 0);
+        color: #ffffff;
+    }
+
+    body {
+
+    }
+    main {
+
+    }
+    header {
+
+    }
+    nav {
+        
+    }
+
+
+/*-------- Mobile Phone Styles ---------*/
+@media screen and (max-width: 600px){
+
+    body {
+    margin: 0;
+    background-color: white;
+    background-position:center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    
+    main {
+    width: 100%;
+    min-height: auto;
+    margin: 0 auto;
+    background-color: white;
+    }
+    
+    header {
+    color: #ffffff;
+    padding: 0em 3em;
+    }
+    
+    #headerHHHC {
+    width: 100%; 
+    height: 100%;
+    }
+    
+    #headerHHHC1 {
+    padding: 1em 0em 1em 0em;
+    width: 10em;
+    float: inherit;
+    opacity: .99;
+    }
+    
+    #headerHHHC2 {
+    padding: 0em;
+    width: 100%;
+    float: inherit;
+    opacity: .99;
+    }
+    
+    nav {
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+    }
+    
+    .topNav a {
+    display: block;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: .25em .5em;
+    text-decoration: none;
+    font-size: 1.25em;
+    }
+    
+    .topNav a:not(:first-child) {
+        display: none;
+    }
+    
+    .topNav a.icon {
+        display: block;
+        float: right;
+    }
+    
+    .topNav.responsive {
+        position: relative;
+    }
+    
+    .topNav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topNav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    section {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 120%;
+        line-height: 1.3em;
+        color: #383838;
+        padding: 1em;
+    }
+    
+    section a:link {
+        color: #ffffff;
+    }
+    
+    section a:visited {
+        color: #00b0ff;
+    }
+    section a:hover {
+        color: yellow;
+    }
+    
+    
+    
+    section h1 {
+        margin: 0;
+        padding: 0em 0em;
+    }
+    
+   
+    footer {
+        clear: left;
+        color: #ffffff;
+        background-color: #284474;
+        padding: .5em;
+    }
+    
+}
+/*-------- End of Mobile Phone Styles ---------*/
+
+
+/*-------- Tablet/Ipad Phone Styles ---------*/
+@media screen and (min-width: 601px){
+
+    
+    body {
+        width: auto;
+        margin: 0;
+        background-color: white;
+        background-position: top;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #ffffff;
+    }
+    
+    main {
+        padding: 0em;
+        min-height: auto;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        background-color: white;
+    }
+    
+    header {
+        height: 19em;
+        color: #ffffff;
+        /*--  font-family: 'Montserrat Subrayada', sans-serif;  --*/
+        font-family: 'Work Sans', sans-serif;
+        text-shadow: 5px 2px 3px #262626;
+        background-image: url(images/shutterstock_10346648982.jpg);
+        background-position: top;
+        background-size: cover;
+        background-color: #ffffff;
+        padding: 1em 2em;
+        font-size: 150%;
+
+    }
+    
+    #headerHHHC {
+    padding: 5.3em 0em .5em 0em;
+    width: 12em;
+    float: inherit;
+    opacity: .99;
+    }
+    
+    #headerHHHC1 {
+    padding: 5.3em 0em .5em 0em;
+    width: 12em;
+    float: inherit;
+    opacity: .99;
+    }
+    
+    #headerHHHC2 {
+    padding: 0em;
+    width: 100%;
+    float: inherit;
+    opacity: .99;
+    }
+
+    header h1 {
+        text-align: center;
+        line-height: 3em;
+    }
+    
+    .topNav {
+        background-image: linear-gradient(#284474, rgba(40, 68, 116, 0.83), rgba(255, 255, 255, 0));
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 1.1em 0em;
+    }
+    
+    .topNav a, .topNav a:visited {
+    display: block;
+    width: 15em;
+    float: left;
+    color: #ededed;
+    text-align: center;
+    padding: .25em ;
+    text-decoration: none;
+    font-size: 1.25em;
+    }
+    
+    
+    aside {
+      
+    }
+    
+    
+    section {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 110%;
+        line-height: 1.3em;
+        color: #363636;
+        margin: 0em 7em;
+        padding: em 1em 10em;
+        float: inherit;
+        line-height: 2;
+    }
+    
+    section a:link {
+        color: #ffffff;
+    }
+    
+    section a:visited {
+        color: #69cbf7;
+    }
+    section a:hover {
+        color: yellow;
+    }
+    
+    section h1 {
+        margin: 0;
+        padding: 2em 2em;
+    }
+
+    section h2 {
+        text-align: center;
+    }
+    
+    #services {
+        font-size: 200%;
+    }
+    
+    .section1 {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 130%;
+        line-height: 1.3em;
+        color: #363636;
+        margin: 0em 10em;
+        padding: em 1em 10em;
+        float: inherit;
+        line-height: 2;
+    }
+    
+    .flex-container {
+      height: 550px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .flex-container > div {
+      background-color: #f1f1f1;
+      width: 1000px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 30px;
+      height: auto;
+    background-color: #ffffff;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+        footer {
+            clear: left;
+            color: #ffffff;
+            background-color: #284474;
+            padding: 1em;
+        }    
+    
+}
+/*-------- End of Tablet/Ipad Phone Styles ---------*/
+
+
+
+/*-------- Mobile Phone Contact Styles ---------*/
+@media screen and (max-width: 600px){
+
+       #contact_form {
+        width: 20em;
+        margin: 0 auto;
+    }
+
+    label {
+        float: left;
+        width: 7em;
+        text-align: right;
+    }
+    
+    label, #center {
+        float: left;
+        width: 7em;
+        text-align: right;
+    }
+    
+    input, select, textarea {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: .25em;
+    }
+    
+    #buttons input {
+        width: 5em;
+    }
+
+    fieldset {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-top: .75em;
+    }
+    
+    legend {
+        color: #294a93;
+        font-weight: bold;
+        font-size: 85%;
+        margin-bottom: .5em;
+    }
+    
+    label.error {
+        float: none;
+        color: red;
+        font-size: 87.5%;
+    }
+
+    /*Validations icons for HTML5 attributes */
+    input:required:invalid {
+        background-image: url(images/required.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    
+    input:focus:invalid {
+        background-image: url(images/invalid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    
+    input:required:valid {
+        background-image: url(images/valid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    
+}
+/*-------- End of Mobile Phone Contact Styles ---------*/
+
+
+/*-------- Tablet/Ipad Phone Contact Styles ---------*/
+@media screen and (min-width: 601px){
+
+        #contact_form {
+        width: 30.25em;
+        margin: 0 auto;
+    }
+
+    label {
+        float: left;
+        width: 12.9em;
+        text-align: right;
+    }
+    input, select, textarea {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: .25em;
+    }
+    #buttons input {
+        width: 7em;
+    }
+
+    fieldset {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-top: .75em;
+    }
+    legend {
+        color: #294a93;
+        font-weight: bold;
+        font-size: 85%;
+        margin-bottom: .5em;
+    }
+    label.error {
+        float: none;
+        color: red;
+        font-size: 87.5%;
+    }
+
+    /*Validations icons for HTML5 attributes */
+    input:required:invalid {
+        background-image: url(images/required.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    input:focus:invalid {
+        background-image: url(images/invalid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    input:required:valid {
+        background-image: url(images/valid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+        
+    
+}
+/*-------- End of Tablet/Ipad Phone Contact Styles ---------*/
+
+
+
+

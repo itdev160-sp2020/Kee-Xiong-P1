@@ -1,0 +1,198 @@
+/*Contact Style Sheet (CSS)*/
+
+/*
+
+#contact_form {
+    width: 30.25em;
+    margin: 0 auto;
+}
+
+label {
+	float: left;
+    width: 12.9em;
+    text-align: right;
+}
+input, select, textarea {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .25em;
+}
+#buttons input {
+	width: 7em;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .75em;
+}
+legend {
+    color: #294a93;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+label.error {
+	float: none;
+	color: red;
+	font-size: 87.5%;
+}
+
+/*Validations icons for HTML5 attributes *
+input:required:invalid {
+    background-image: url(images/required.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+input:focus:invalid {
+    background-image: url(images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+input:required:valid {
+    background-image: url(images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+*/
+
+/*---------------------------------------------------*/
+
+
+
+/*-------- Mobile Phone Contact Styles ---------*/
+@media screen and (max-width: 600px){
+
+       #contact_form {
+        width: 20em;
+        margin: 0 auto;
+    }
+
+    label {
+        float: left;
+        width: 7em;
+        text-align: right;
+    }
+    
+    label, #center {
+        float: left;
+        width: 7em;
+        text-align: right;
+    }
+    
+    input, select, textarea {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: .25em;
+    }
+    
+    #buttons input {
+        width: 5em;
+    }
+
+    fieldset {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-top: .75em;
+    }
+    
+    legend {
+        color: #294a93;
+        font-weight: bold;
+        font-size: 85%;
+        margin-bottom: .5em;
+    }
+    
+    label.error {
+        float: none;
+        color: red;
+        font-size: 87.5%;
+    }
+
+    /*Validations icons for HTML5 attributes */
+    input:required:invalid {
+        background-image: url(images/required.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    
+    input:focus:invalid {
+        background-image: url(images/invalid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    
+    input:required:valid {
+        background-image: url(images/valid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    
+}
+/*-------- End of Mobile Phone Contact Styles ---------*/
+
+
+/*-------- Tablet/Ipad Phone Contact Styles ---------*/
+@media screen and (min-width: 601px){
+
+        #contact_form {
+        width: 30.25em;
+        margin: 0 auto;
+    }
+
+    label {
+        float: left;
+        width: 12.9em;
+        text-align: right;
+    }
+    input, select, textarea {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: .25em;
+    }
+    #buttons input {
+        width: 7em;
+    }
+
+    fieldset {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-top: .75em;
+    }
+    legend {
+        color: #294a93;
+        font-weight: bold;
+        font-size: 85%;
+        margin-bottom: .5em;
+    }
+    label.error {
+        float: none;
+        color: red;
+        font-size: 87.5%;
+    }
+
+    /*Validations icons for HTML5 attributes */
+    input:required:invalid {
+        background-image: url(images/required.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    input:focus:invalid {
+        background-image: url(images/invalid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    input:required:valid {
+        background-image: url(images/valid.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+        
+    
+}
+/*-------- End of Tablet/Ipad Phone Contact Styles ---------*/
+
+
+
+

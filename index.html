@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Highlander Home Health Care</title>
+    <meta name="description" content="WEBDEV 114Responsive Web Design project 8.">
+    <meta name="keywords" content="Highlander Home Healthcare, Home Healthcare, personal care assist">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <!--- <link rel="stylesheet" media="screen and (max-width: 600px)" href="styleMobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="styleTablet.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopNav");
+            if (x.className === "topNav") {
+                x.className += " responsive";
+            }
+            else{
+                x.className = "topNav";
+            }
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><b><img id="headerHHHC" src="images/main_logo3.png" alt="HHHC"></b></h1>
+        </header>
+        <nav class="topNav" id="myTopNav">
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="faqs.html">FAQ's</a>
+            <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!-- &nbsp; is code to not let text wrap -->
+        </nav>
+        
+        <section>
+            
+            <br>
+            <br>
+            <div><h2>Welcome Highlander Home Health Care</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem sem, elementum eget lorem non, condimentum scelerisque eros. Proin porta leo est, nec auctor urna fringilla et.  Aenean cursus justo faucibus, consequat velit eu, pellentesque tortor.</p>
+            <br>
+            
+            <div class="row">
+              <div class="column">
+                <h2></h2>
+                <p><img id="headerHHHC2" src="images/shutterstock_1569001216.jpg" alt="HHHC"></p>
+              </div>
+              <div class="column">
+                <h2></h2>
+                <p><img id="headerHHHC2" src="images/shutterstock_573543064.jpg" alt="HHHC"></p>
+              </div>
+            </div>
+                
+            <br>
+            <br>
+            <br>
+            <h2>A place where you can care for a family or friend</h2>
+            <p>Nulla facilisi. In id aliquam arcu. Vestibulum porta suscipit leo maximus congue. Sed porta nisl at arcu pellentesque ornare. Vestibulum nisl sem, porttitor nec enim et, pellentesque euismod massa. Curabitur id tortor nisi. Suspendisse ullamcorper nibh non vulputate euismod. Pellentesque at dui eu sapien vulputate facilisis vel quis dolor. Donec placerat pharetra auctor. Nam iaculis egestas commodo. Nullam eu turpis eu justo dictum venenatis.</p>
+            <br>
+            <br>
+            <br>
+            
+            </div>
+        </section>
+        
+        <footer>
+            
+            <p>Copyright &copy; 2019</p>
+        
+        </footer>
+    </main>
+</body>
+</html>
